@@ -1,0 +1,22 @@
+/*
+Custom Css
+*/
+#subscribeEmail {
+    color: #ffffff !important; /* yazı beyaz görünsün */
+    background-color: #1f2a34 !important; /* koyu alanla uyumlu */
+    border: 1px solid #3c4a55 !important;
+}
+
+#subscribeEmail::placeholder {
+    color: #9da8b3 !important; /* placeholder açık gri */
+}
+
+#subscribeForm {
+    max-width: 500px;
+    margin-left: auto;
+}
+
+#subscribeBtn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

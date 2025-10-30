@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Frondessa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                Frondessa
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#" id="navUserBtn">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>Frondessa</b> eCommerce</h1>
+                                <h3 class="h2"></h3>
+                                <p>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Window Cleaning Brush</h1>
+                                <h3 class="h2">Cleaning brush tool with extendable handle</h3>
+                                <p>
+                                   Say goodbye to dirty screens! This Screen Cleaning Brush with an extendable handle makes it effortless to reach every corner of your <strong>TV, laptop, or window.</strong> The soft, anti-scratch bristles gently remove dust and debris without damaging your screen — keeping everything crystal clear!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Wireless Charging Station</h1>
+                                <h3 class="h2">Foldable 3-in-1 Fast Charging Stand</h3>
+                                <p>
+                                    This 3-in-1 Foldable Wireless Charging Station powers your <strong>phone, watch, and earbuds</strong> all at once. Compact, fast, and perfect for home or travel!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Categories of The Month -->
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Categories of The Month</h1>
+                <p>
+                    This is our best product categories in this month. You can choose your desired products from here.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Watches</h5>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
+                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start Featured Product -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Featured Product</h1>
+                    <p>
+                        Our featured products are carefully selected to offer you the best in quality, design, and value. Explore our top picks and find your next favorite item today!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">$240.00</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Gym Weight</a>
+                            <p class="card-text">
+                                Gym Weight for beginner and professional athlete to build muscles and shape your body.
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/feature_prod_02.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">$480.00</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Cloud Nike Shoes</a>
+                            <p class="card-text">
+                                Comfortable Nike shoes for running and everyday use. Get your pair now!
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/feature_prod_03.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">$360.00</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Summer Addides Shoes</a>
+                            <p class="card-text">
+                                Stylish Adidas shoes for summer season. Lightweight and durable for all-day comfort.
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Product -->
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Frondessa</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Online Shop
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+905355700625">535-570-06-25</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:frondessa2025@gmail.com">frondessa@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
+                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
+                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
+                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
+                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Home</a></li>
+                        <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                        <li><a class="text-decoration-none" href="faqs.html">FAQs</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/frondessa"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/frondessa"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/frondessa"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <form id="subscribeForm" class="input-group mb-2" onsubmit="return false;">
+                    <input type="email" class="form-control bg-dark border-light"
+                            id="subscribeEmail" placeholder="Email address" required>
+                    <input type="text" id="subscribeTrap" style="display:none" tabindex="-1" autocomplete="off">
+                    <button id="subscribeBtn" class="input-group-text btn-success text-light" type="submit">
+                    Subscribe
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2025 Frondessa 
+                            | Designed by <u>Hawanbeats</u>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Account Modal -->
+<div class="modal fade" id="accountModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="accountModalTitle">Sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-3" id="authTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="signin-tab" data-bs-toggle="tab" data-bs-target="#signin-pane" type="button" role="tab">Sign in</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup-pane" type="button" role="tab">Register</button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <!-- Sign in -->
+          <div class="tab-pane fade show active" id="signin-pane" role="tabpanel">
+            <form id="signInForm" class="vstack gap-3" onsubmit="return false;">
+              <div>
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="signinEmail" placeholder="you@example.com" required>
+              </div>
+              <div>
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" id="signinPassword" placeholder="••••••••" required>
+              </div>
+              <button class="btn btn-dark w-100" type="submit">Sign in</button>
+
+              <div class="text-center text-muted">or continue with</div>
+
+              <!-- Google Sign-in button -->
+              <div id="g_id_onload"
+                   data-client_id="81480434685-osmaef9mma98v8ruvuk27eep1i8cq5fv.apps.googleusercontent.com"
+                   data-context="signin"
+                   data-ux_mode="popup"
+                   data-callback="handleGoogleCredential"
+                   data-auto_prompt="false">
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="g_id_signin"
+                     data-type="standard"
+                     data-shape="rectangular"
+                     data-theme="outline"
+                     data-text="signin_with"
+                     data-size="large"
+                     data-logo_alignment="left">
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Sign up -->
+          <div class="tab-pane fade" id="signup-pane" role="tabpanel">
+            <form id="signUpForm" class="vstack gap-3" onsubmit="return false;">
+              <div>
+                <label class="form-label">Full name</label>
+                <input type="text" class="form-control" id="signupName" placeholder="Jane Doe" required>
+              </div>
+              <div>
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="signupEmail" placeholder="you@example.com" required>
+              </div>
+              <div>
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" id="signupPassword" placeholder="Minimum 6 characters" minlength="6" required>
+              </div>
+              <button class="btn btn-success w-100" type="submit">Create account</button>
+
+              <div class="text-center text-muted">or register with</div>
+              <div class="d-flex justify-content-center">
+                <div class="g_id_signin"
+                     data-type="standard"
+                     data-shape="rectangular"
+                     data-theme="outline"
+                     data-text="signup_with"
+                     data-size="large"
+                     data-logo_alignment="left">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Logged-in mini panel (hidden by default) -->
+        <div id="accountSummary" class="d-none">
+          <div class="d-flex align-items-center gap-3">
+            <div id="accountAvatar" class="rounded-circle bg-dark text-white d-flex align-items-center justify-content-center" style="width:48px;height:48px;font-weight:600;"></div>
+            <div>
+              <div id="accountName" class="fw-semibold"></div>
+              <small id="accountEmail" class="text-muted"></small>
+            </div>
+          </div>
+          <hr>
+          <div class="d-grid gap-2">
+            <a href="#" class="btn btn-outline-secondary">My account</a>
+            <button id="logoutBtn" class="btn btn-danger">Log out</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/search-index.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/subscribe.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="assets/js/auth.js"></script>
+
+    <!-- End Script -->
+</body>
+
+</html>
